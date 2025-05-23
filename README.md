@@ -84,6 +84,7 @@ if __name__ == "__main__":
     results = indexer.boolean_search(query)
     if results:
         print(f"Results for '{query}': {results}")
+      
     else:
         print("No results found for the query.")
 
